@@ -5,18 +5,30 @@ html, body {
     background-color: #333333;
 }
 
+@font-face {
+    font-family: 'latoregular';
+    src: url('fonts/lato/lato-regular-webfont.eot');
+    src: url('fonts/lato/lato-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/lato/lato-regular-webfont.woff2') format('woff2'),
+         url('fonts/lato/lato-regular-webfont.woff') format('woff'),
+         url('fonts/lato/lato-regular-webfont.ttf') format('truetype'),
+         url('fonts/lato/lato-regular-webfont.svg#latoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
 
+}
 /* Overrides jquery ui theme styles */
 .ui-page-theme-b .ui-btn, html .ui-bar-b .ui-btn, html .ui-body-b .ui-btn, html body .ui-group-theme-b .ui-btn, html head+body .ui-btn.ui-btn-b, .ui-page-theme-b .ui-btn:visited, html .ui-bar-b .ui-btn:visited, html .ui-body-b .ui-btn:visited, html body .ui-group-theme-b .ui-btn:visited, html head+body .ui-btn.ui-btn-b:visited {
-    background-color: #626161;
+    background-color: #007EC3;
     border-color: #aaa;
     color: #fff;
-    text-shadow: 0 1px 0 #111;
+    text-shadow: none;
 }
 
 .ui-page-theme-b .ui-btn:hover, html .ui-bar-b .ui-btn:hover, html .ui-body-b .ui-btn:hover, html body .ui-group-theme-b .ui-btn:hover, html head+body .ui-btn.ui-btn-b:hover, .ui-page-theme-b .ui-btn:visited:hover, html .ui-bar-b .ui-btn:visited:hover, html .ui-body-b .ui-btn:visited:hover, html body .ui-group-theme-b .ui-btn:visited:hover, html head+body .ui-btn.ui-btn-b:visited:hover {
-    background-color: #3f3f3f;
+    background-color:rgb(153, 187, 232);
     border-color: #888;
+    text-shadow: none;
 }
 
 .ui-page-theme-b .ui-btn:focus, html .ui-bar-b .ui-btn:focus, html .ui-body-b .ui-btn:focus, html body .ui-group-theme-b .ui-btn:focus, html head+body .ui-btn.ui-btn-b:focus, .ui-page-theme-b .ui-focus, html .ui-bar-b .ui-focus, html .ui-body-b .ui-focus, html body .ui-group-theme-b .ui-focus, html head+body .ui-btn-b.ui-focus, html head+body .ui-body-b.ui-focus {
@@ -48,12 +60,12 @@ html, body {
 /* Overrides openlayers styles */
 .ol-control button {
     color: #fff;
-    background-color: #626161;
+    background-color: #007EC3;
 }
 
 .ol-control button:hover,
 .ol-control button:focus {
-    background-color: #888;
+    background-color: rgb(153, 187, 232);
 }
 
 .ol-attribution ul {
