@@ -5,6 +5,35 @@ html, body {
     background-color: #333333;
 }
 
+.ui-page-theme-a .ui-bar-inherit{
+    background-color:#007EC3;
+    text-shadow:none;
+    color: #fff;
+}
+
+/*button hover*/
+.ui-page-theme-a .ui-btn:hover, html .ui-bar-a .ui-btn:hover, html .ui-body-a .ui-btn:hover, html body .ui-group-theme-a .ui-btn:hover, html head + body .ui-btn.ui-btn-a:hover{
+    background-color:#D4E6F4;
+    text-shadow:none;
+    color:#4D4D4D;
+}
+/*button*/
+.ui-page-theme-a .ui-btn, html .ui-bar-a .ui-btn, html .ui-body-a .ui-btn, html body .ui-group-theme-a .ui-btn, html head+body .ui-btn.ui-btn-a, .ui-page-theme-a .ui-btn:visited, html .ui-bar-a .ui-btn:visited, html .ui-body-a .ui-btn:visited, html body .ui-group-theme-a .ui-btn:visited, html head+body .ui-btn.ui-btn-a:visited{
+    background-color:#fff;
+    border-color:#007EC3;
+    color:#007EC3;
+    box-shadow:none;
+}
+
+/*Set PanelShareBtn according to top-rigth btn heigth*/
+#panelShareBtn{
+    height:17px;
+}
+
+.ui-controlgroup-controls .ui-btn-icon-notext{
+    height:17px;
+}
+
 @font-face {
     font-family: 'latoregular';
     src: url('fonts/lato/lato-regular-webfont.eot');
@@ -34,15 +63,16 @@ html, body {
 .ui-page-theme-b .ui-btn:focus, html .ui-bar-b .ui-btn:focus, html .ui-body-b .ui-btn:focus, html body .ui-group-theme-b .ui-btn:focus, html head+body .ui-btn.ui-btn-b:focus, .ui-page-theme-b .ui-focus, html .ui-bar-b .ui-focus, html .ui-body-b .ui-focus, html body .ui-group-theme-b .ui-focus, html head+body .ui-btn-b.ui-focus, html head+body .ui-body-b.ui-focus {
     -webkit-box-shadow: 0 0 5px #fff;
     -moz-box-shadow: 0 0 5px #fff;
-    box-shadow: 0 0 5px #fff;
+    box-shadow: 0 0 7px #999;
 }
 
 .ui-page-theme-b .ui-btn.ui-btn-active, html .ui-bar-b .ui-btn.ui-btn-active, html .ui-body-b .ui-btn.ui-btn-active, html body .ui-group-theme-b .ui-btn.ui-btn-active, html head+body .ui-btn.ui-btn-b.ui-btn-active, .ui-page-theme-b .ui-checkbox-on:after, html .ui-bar-b .ui-checkbox-on:after, html .ui-body-b .ui-checkbox-on:after, html body .ui-group-theme-b .ui-checkbox-on:after, .ui-btn.ui-checkbox-on.ui-btn-b:after, .ui-page-theme-b .ui-flipswitch-active, html .ui-bar-b .ui-flipswitch-active, html .ui-body-b .ui-flipswitch-active, html body .ui-group-theme-b .ui-flipswitch-active, html body .ui-flipswitch.ui-bar-b.ui-flipswitch-active, .ui-page-theme-b .ui-slider-track .ui-btn-active, html .ui-bar-b .ui-slider-track .ui-btn-active, html .ui-body-b .ui-slider-track .ui-btn-active, html body .ui-group-theme-b .ui-slider-track .ui-btn-active, html body div.ui-slider-track.ui-body-b .ui-btn-active {
-    background-color: #aaa;
+    background-color: #99BBE8;
     border-color: #888;
     color: #fff;
-    text-shadow: 0 1px 0 #555;
+    text-shadow: none;
 }
+.ui-page-theme-a .ui-btn:hover, html .ui-bar-a .ui-btn:hover, html .ui-body-a .ui-btn:hover, html body .ui-group-theme-a .ui-btn:hover, html head + body .ui-btn.ui-btn-a:hover{}
 
 .ui-page-theme-a .ui-btn:hover, html .ui-bar-a .ui-btn:hover, html .ui-body-a .ui-btn:hover, html body .ui-group-theme-a .ui-btn:hover, html head + body .ui-btn.ui-btn-a:hover {
     -webkit-box-shadow: 0 0 7px #999;
