@@ -493,6 +493,9 @@ var SViewer = function() {
                 );
             });
             $('#georchestraForm').attr('action', config.geOrchestraBaseUrl + 'mapfishapp/');
+            
+            /* uncomment this bloc to active QrCode creation
+             * 
             if ($('#qrcode').css("visibility")==="visible") {
                 $('#qrcode').empty();
                 new QRCode("qrcode", {
@@ -501,7 +504,7 @@ var SViewer = function() {
                     height: 130,
                     correctLevel: QRCode.CorrectLevel.L
                 });
-            }
+            }*/
             $('#permalink').prop('href',permalinkQuery);
         }
     }
