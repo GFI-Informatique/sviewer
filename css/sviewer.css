@@ -345,3 +345,21 @@ screen and (max-height: 400px) {
 .sv-location a {
     font-size: 0.7em;
 }
+#panelcontrols .ui-btn:after, #panelLocate-popup .ui-btn:after{
+	background-color: #007EC3;
+}
+#panelcontrols .ui-btn:hover:after, #panelLocate-popup .ui-btn:hover:after, .panelcontrols  .ui-btn-active:after{
+    background-color: rgb(153, 187, 232);
+}
+.btn-delete-bg {
+	border-width:0;
+}
+.btn-delete-bg.ui-btn:hover {
+	background-color:rgb(153, 187, 232);
+}
+.btn-delete-bg:after {
+	background-color: #007EC3;
+}
+.btn-delete-bg:hover:after{
+	background-color: rgb(153, 187, 232);
+}
