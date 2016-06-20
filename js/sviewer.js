@@ -408,6 +408,7 @@ var SViewer = function() {
                     $.mobile.loading('hide');
                 }
             });
+            $.mobile.loading('hide');
 
             //activate search if required
             if (config.search) {
