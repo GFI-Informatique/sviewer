@@ -45,11 +45,14 @@ $(document).bind("mobileinit", function(){
 
     <!-- content -->
       <div data-role="content" id="frameMap" class="sv-framemap">
+
         <!-- map -->
         <div id="map" class="sv-map" tabindex="0">
             <div id="marker"></div>
         </div>
+        
 
+          
         <!-- map controls -->
         <div id="mapcontrols" class="sv-map-controls ui-nodisc-icon">
           <a id="zeBt" href="#" accesskey="w" class="i18n ui-btn ui-icon-home-c ui-btn-icon-notext ui-btn-b" title="initial view">initial view</a>
@@ -57,15 +60,17 @@ $(document).bind("mobileinit", function(){
           <a id="zoBt" href="#" accesskey="-" class="i18n ui-btn ui-icon-minus-c ui-btn-icon-notext ui-btn-b" title="zoom -">zoom -</a>
           <a id="bgBt" href="#" accesskey="b" class="i18n ui-btn ui-icon-layer-c ui-btn-icon-notext ui-btn-b" title="background">background</a>
         </div>
-
         <div id="panelcontrols" class="sv-map-panels" data-role="controlgroup" data-type="horizontal" class="ui-btn-right" data-theme="b">
-          <a href="#panelShare" accesskey="m" id="panelShareBtn" class="i18n ui-btn ui-icon-edit ui-btn-icon-right" data-rel="popup" data-position-to="window" title="Map">&nbsp;</a>
-          <a href="#panelInfo" accesskey="i" id="panelInfoBtn" class="i18n ui-btn ui-icon-bullets ui-btn-icon-notext" data-rel="popup" data-position-to="window" title="Legend">Legend</a>
-          <a href="#panelQuery" accesskey="q" id="panelQueryBtn" class="i18n ui-btn ui-icon-info ui-btn-icon-notext" data-rel="popup" data-position-to="window" title="Query">Query</a>
-          <a href="#panelLocate" accesskey="l" id="panelLocateBtn" class="i18n ui-btn ui-icon-search ui-btn-icon-notext" data-rel="popup" data-position-to="window" title="Locate">Locate</a>
+            <!--map logo-->
+            <div position="relative">
+                <img class="sv-map-logo" src="css/images/logo-santegraphie.png" alt="Logo Santégraphie" padding-top="5px" padding-right:"10px" width="40">
+            </div>
+            <a href="#panelShare" accesskey="m" id="panelShareBtn" class="i18n ui-btn ui-icon-edit ui-btn-icon-right" data-rel="popup" data-position-to="window" title="Map">&nbsp;</a>
+            <a href="#panelInfo" accesskey="i" id="panelInfoBtn" class="i18n ui-btn ui-icon-bullets ui-btn-icon-notext" data-rel="popup" data-position-to="window" title="Legend">Legend</a>
+            <a href="#panelQuery" accesskey="q" id="panelQueryBtn" class="i18n ui-btn ui-icon-info ui-btn-icon-notext" data-rel="popup" data-position-to="window" title="Query">Query</a>
+            <a href="#panelLocate" accesskey="l" id="panelLocateBtn" class="i18n ui-btn ui-icon-search ui-btn-icon-notext" data-rel="popup" data-position-to="window" title="Locate">Locate</a>
         </div>
-      </div>
-      <!-- getfeatureinfo panel -->
+        <!-- getfeatureinfo panel -->
       <div id="panelQuery" class="sv-panel" data-role="popup">
         <div data-role="header">
           <a href="#" data-rel="back" class="i18n ui-btn btn-delete-bg ui-icon-delete ui-btn-icon-notext ui-corner-all ui-btn-right" title="Close">Close</a>

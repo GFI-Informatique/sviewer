@@ -152,6 +152,16 @@ p.center {
     text-overflow: ellipsis !important;
 }
 
+.ui-controlgroup-horizontal .ui-controlgroup-controls{
+    display:flex;
+    vertical-align: middle;
+}
+
+.sv-map-logo{
+    padding-top:5px;
+    padding-right:10px;
+    min-width:40px;
+}
 
 @media screen and (max-width: 600px) {
     .ui-controlgroup-controls .ui-btn {
