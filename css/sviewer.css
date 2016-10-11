@@ -150,6 +150,13 @@ p.center {
 #panelShareBtn {
     max-width: 32em;
     text-overflow: ellipsis !important;
+    background-image:url("images/logo-santegraphie.png");
+    background-repeat:no-repeat;
+    background-position: 3% 50%;
+    background-size:36px 28px;
+    width:150px;
+    padding-left:25px;
+    padding-right: 15px;    
 }
 
 .ui-controlgroup-horizontal .ui-controlgroup-controls{
@@ -160,8 +167,8 @@ p.center {
 .sv-map-logo{
     padding-top:5px;
     padding-right:10px;
+    max-width: 45px;
     min-width:40px;
-    filter: drop-shadow(2px 2px 2px black) opacity(1);
 }
 
 @media screen and (max-width: 600px) {
