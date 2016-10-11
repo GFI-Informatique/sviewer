@@ -161,6 +161,7 @@ p.center {
     padding-top:5px;
     padding-right:10px;
     min-width:40px;
+    filter: drop-shadow(2px 2px 2px black) opacity(1);
 }
 
 @media screen and (max-width: 600px) {
